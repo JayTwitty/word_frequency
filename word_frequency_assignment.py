@@ -1,6 +1,6 @@
 
 with open("sample") as sample_file:
-    contents = sample_file.read`()
+    contents = sample_file.read()
 
 contents = contents.lower().replace("\n", " ").replace("*"," ").replace("/", " ").replace("."," ").replace("?"," ").replace("("," ").replace(")"," ").replace("'"," ").replace("\""," ").replace(";"," ").replace("-"," ").replace("!"," ").replace("]"," ").replace("["," ").replace("@"," ").replace("#"," ").replace(","," ").replace("$"," ").replace(":"," ").replace("%"," ")
 
